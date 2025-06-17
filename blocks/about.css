@@ -23,7 +23,9 @@
   flex-direction: column;
   gap: 20px;
   max-width: 660px;
+  margin-top: 119px;
 }
+
 .about__paragraph {
   margin: 0;
   font-family: "Noto Serif", "Times New Roman", serif;

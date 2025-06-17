@@ -2,14 +2,13 @@
   display: flex;
   flex-direction: column;
   height: 800px;
-  min-height: 720px;
-  max-height: 800px;
   padding: 30px 80px 40px;
   background-color: #ffffff;
   background-image: url(../images/se_project_2_files/background_header.svg);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -34,9 +33,8 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", Serif;
   font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
   color: #3f96f3;
+  font-weight: 500;
 }
 
 .header__image {

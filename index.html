@@ -7,7 +7,10 @@
     <meta name="description" content="coffee shop landing page" />
     <meta name="keywords" content="HTML, CSS" />
     <title>coffee shop</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="../se_project_coffeeshop/vendor/normalize.css"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -151,16 +154,17 @@
                 />
               </label>
               <button class="form__button">Book a table</button>
-              <input
-                id="i-agree-with-the-terms-of-use"
-                required
-                type="checkbox"
-                class="form__checkbox"
-              />
+
               <label
                 class="form__label form__label_type_checkbox"
                 for="i-agree-with-the-terms-of-use"
               >
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  id="i-agree-with-the-terms-of-use"
+                  required
+                />
                 I agree with the terms of use
               </label>
             </fieldset>
