@@ -4,7 +4,7 @@
   background-color: #0a2850;
   display: flex;
   justify-content: space-between;
-  font-family: "Inter", Arial, Sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -23,7 +23,7 @@
   flex-direction: column;
   gap: 20px;
   max-width: 660px;
-  margin-top: 119px;
+  margin-top: 19px;
 }
 
 .about__paragraph {
